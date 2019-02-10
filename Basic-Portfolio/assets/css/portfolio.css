@@ -1,0 +1,51 @@
+
+
+.container {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    grid-gap: 5px;
+    width: 960px;
+    height: 75%;
+    background-color: #ffffff;
+    border: 1px solid #666;
+    border-radius: 6px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 130px;
+    left: 20%;
+
+}
+
+.imageWrapper {
+
+    float: left;
+    margin: 8px;
+    border: #666666 solid 1px;
+    border-radius: 4px;
+
+}
+
+.textBlock {
+
+    position: relative;
+    width: 90%;
+    color: white;
+    cursor: pointer;
+}
+
+.imageOverlay {
+
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    opacity: .9;
+    position: absolute;
+    top: 120px;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    
+}
