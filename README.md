@@ -1,2 +1,2 @@
-# _shaneweth_.gihub.io
+# _shaneweth_.github.io
 website test
