@@ -1,70 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/form.css" rel="stylesheet">
-    <link href="assets/css/footer.css" rel="stylesheet">
+
 
     <title>Shane Wetherington: Contact</title>
+
+
 </head>
 <body>
-
-    <header class="header">
-
-    
-        <!-- This section will be inline. It will have a box containing name. / It will also have links to the corresponding pages in the site. -->
-    
-        <div class="nameBox">
-    
-        <h1>Shane Wetherington</h1>
-    
+    <header class="container-fluid">
+        <div class="header">
+            <div class="display-4 m-4 p-2">Shane Wetherington</div>
+            <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ml-auto mt-1 mt-lg-2 mt-sm-12">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    
-        <div class="linksBox">
-    
-        <a href="index.html">About |</a>
-        <a href="portfolio.html">Portfolio |</a>
-        <a href="contact.html">Contact</a>
-    
-        </div> 
-    
-    
     </header>
 <main>
 
         <!-- This section will contain a form to input contact information. The 3 fields will be: 1-Name, 2-Email, 3-Message -->
-<body>
-
-<div class="formBg">  
-    
-    
-    <h3>Contact Information</h3>
+<body>    
+    <div class="container">
+            <div class="container-fluid">
+                <h1 class="font-weight-light text-center mt-4 mb-0">Contact Me</h1>
+            </div>
 
     <hr width=75%>
 
-    <br><br><br>
+    <br>
 
-    <div class="input">
+    <form>
+        <div class="container">
+            <label for="exampleFormControlInput1">Name</label>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email Address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit">
 
-        <label for="name">First Name</label>
-        <input type="text" id="name" name="name" placeholder="First Name, Last Name...">
-
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Aaaaand Email, Please...">
-
-        <label for="textarea">Message</label>
-        <input type="text" id="textarea" name="message" placeholder="Your Message Here">
-        
-        <input type="submit" value="Submit">
-     </form>
-    </div>
-</div>
-
-            
+        </div>
+    </form>
             
 </body>
 

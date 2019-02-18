@@ -1,76 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    
+    <link href="assets/css/style.css" rel="stylesheet">
+
 
     <title>Shane Wetherington: About</title>
 
 
 </head>
 <body>
-<header class="header">
-
+    <header class="container-fluid">
+        <div class="header">
+            <div class="display-4 m-4 p-2">Shane Wetherington</div>
+            <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ml-auto mt-1 mt-lg-2 mt-sm-12">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container h-100 d-flex">
+        <div class="container">
+            <div class="container-fluid">
+                <h1 class="font-weight-light text-center mt-4 mb-0">About Me</h1>
+            </div>
+            <hr width=75%>
+            <br>
+            <div class="relative">
+                <div class="row justify-content-center align-self-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="jumbotron">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-sm-12">
+                                        <img class="img-fluid" src="assets/images/profpic1.jpg" style="width:60%" ; />
+                                    </div>
+                                    <div class="col-md-8 col-sm-12">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod veniam
+                                            laboriosam
+                                            atque repudiandae distinctio temporibus libero minima illo enim, cum possimus
+                                            excepturi
+                                            nobis facere voluptas soluta quas voluptatum eveniet.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis quam
+                                            consectetur iusto totam unde? Officia similique commodi, temporibus vel ducimus
+                                            modi, architecto unde est quas, alias in sed consequuntur.</p>
+                                    </div>
+                                </div>
+                            </div>
     
-    <!-- This section will be inline. It will have a box containing name. / It will also have links to the corresponding pages in the site. -->
-
-    <div class="nameBox">
-
-    <h1>Shane Wetherington</h1>
-
-    </div>
-
-    <div class="linksBox">
-
-    <a href="index.html">About |</a>
-    <a href="portfolio.html">Portfolio |</a>
-    <a href="contact.html">Contact</a>
-
-    </div> 
-
-
-</header>
-
-<main class="mainBox">
+                        </div>
+                    </div>
+                </div>
     
-    <!-- This Section will be split into 2 elements. A Heading / A break with a line / A summary, or bio. -->
-   
-    
-    <h2>About Me</h2>
+    </main>
 
-    <br>
+    <footer class="footer">
 
-    <hr width=72%>
-    
+        <!--This is where the Copyright Logo and Date will be-->
 
-    <br><br><br><br>
+        Copyright 2019 &copy;
 
 
-    <img class="profPic" src="assets/images/profpic1.jpg" style="width: 175px; height: 225px;">
-
-    <p class="profPic">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea vitae reiciendis non dignissimos odit atque voluptatem officiis quia accusamus enim quas corporis, error est harum? Aliquid suscipit ea eligendi ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis obcaecati facere cupiditate necessitatibus blanditiis pariatur ex, neque architecto, quos nesciunt incidunt, magni fugit dolore eius eaque sapiente soluta illo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, ad aliquid culpa, ullam iste nam ipsam repellendus architecto fugiat accusamus illum eligendi error dolores eum rem nihil eveniet facere cupiditate.</p>
-    <br><br>
-    <p class="profPic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquam cumque dicta recusandae eos voluptatem nam id? Id commodi a consectetur repellendus. Exercitationem at aperiam veniam. Quasi voluptatem reiciendis assumenda.</p>
-    <br><br>
-    <p class="profPic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, explicabo eveniet! Modi, dolorum id debitis inventore rem quaerat dolor asperiores iusto odit ea a aut aspernatur omnis, quo reiciendis consequuntur!</p>
-
-</main>
-<footer class="footer">
-
-    <!--This is where the Copyright Logo and Date will be-->
-
-    Copyright 2019 &copy;
-    
-    
-</footer>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
-    
+
 
 </html>
